@@ -131,6 +131,7 @@ header ul {
 /* profile section */
 .profile-section {
     width: 67%;
+    background-color: #faf9f9;
 }
 .edit-profile-wrapper {
     display: flex;
@@ -221,6 +222,7 @@ form label {
 }
 /* footer */
 footer {
+    background-color: #fcfcfc;
     width: 10%;
     height: 100vh;
 }
