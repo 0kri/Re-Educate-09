@@ -75,7 +75,7 @@ header ul {
     align-items: center;
     justify-content: space-evenly;
     height: 50%;
-    width: 70%;
+    width: 100%;
 }
 .settings-title {
     display: flex;
