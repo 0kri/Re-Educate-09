@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <nav>
-            <img src="photo/nav-logo.png" alt="navigation logo">
+        <nav class="left-nav">
+            <img class="left-nav-logo" src="photo/nav-logo.png" alt="navigation logo">
             <ul>
                 <li class="nav-icon">
                     <img src="photo/home-icon.png" alt="home icon">
@@ -28,14 +28,16 @@
                     <img src="photo/profile-icon.png" alt="profile icon">
                 </li>
             </ul>
-            <img src="photo/settings-icon.png" alt="settings icon" style="background-color: #FF7008;">
+            <div class="left-nav-setting-logo-wrapper">
+                <img class="left-nav-settings-logo" src="photo/settings-icon.png" alt="settings icon">
+            </div>
         </nav>
     </header>
     <section class="settings-section">
-        <nav>
+        <nav class="right-nav">
             <div class="settings-title">
-                <h3>settings</h3>
                 <img src="photo/mark-icon.png" alt="leftmark icon">
+                <h3>settings</h3>
             </div>
             <ul>
                 <li class="setting-icon">
@@ -59,6 +61,7 @@
                     <p>Help</p>
                 </li>
             </ul>
+            <div class="right-nav-hidden-div"></div>
         </nav>
     </section>
     <section class="profile-section">
@@ -118,7 +121,7 @@
     </section>
     <footer>
         <div class="footer-wrapper">
-            <img src="photo/blacknotifications-icon.png" alt="Notification Logo">
+            <img src="photo/boldnotifications-logo.png" alt="Notification Logo">
             <img src="photo/profile-logo.png" alt="Footer Logo">
         </div>
     </footer>
