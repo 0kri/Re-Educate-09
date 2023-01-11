@@ -12,9 +12,6 @@
 .flex {
     display: flex;
 }
-body {
-    background-color: #f7f4f4;
-}
 header {
     background-color: #FFC297;
     width: 5%;
