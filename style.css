@@ -9,7 +9,7 @@
     display: flex;
 }
 body {
-    background-color: #AEAEAE;
+    background-color: #f7f4f4;
 }
 header {
     display: inline-block;
@@ -59,6 +59,7 @@ header ul {
     /* background-color: #752871; */
     width: 15%;
     height: 100vh;
+    border-right: 1px solid #858585;
 }
 .right-nav {
     display: flex;
@@ -93,13 +94,16 @@ header ul {
 }
 .right-nav li {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     align-items: center;
     color: #858585;
     font-weight: 500;
     font-size: 20px;
     line-height: 32.81px;
+}
+.right-nav li * {
+    margin: 10px;
 }
 .right-nav li:first-child {
     color: #1C1C1C;
